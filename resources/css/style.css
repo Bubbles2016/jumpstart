@@ -28,6 +28,13 @@ a {
   color: black;
 }
 
+@media only screen and (max-width: 770px) {
+  .logo img {
+    display: none;
+  }
+
+}
+
 /*jumbotron section*/
 .jumbotron {
   background: url("../images/jumbotron-bike.jpg") no-repeat center center;
@@ -49,6 +56,37 @@ a {
   font-size: 7.1rem;
   text-shadow: -1px -1px 0 #000;
   color: white;
+}
+
+@media only screen and (max-width: 450px) {
+  .jumbotron {
+    background-size: 100%;
+  }
+
+  .jumbotron .container h1 {
+    font-size: 2.7rem;
+  }
+
+  .jumbotron .container p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+/*Featured project*/
+@media only screen and (max-width: 450px) {
+  .Featured-project .image-container img {
+    width: 100%;
+  }
+
+  #documentary {
+    width: 50%;
+  }
+}
+/*Projects*/
+@media only screen and (max-width: 450px) {
+  #project1, #project2, #project3 {
+    width: 100%;
+  }
 }
 
 /*help section*/
