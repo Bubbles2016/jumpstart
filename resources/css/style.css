@@ -17,7 +17,7 @@ a {
 }
 
 .navbar-default .navbar-header > a {
-  color: #399bd1;  
+  color: #399bd1;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -26,4 +26,27 @@ a {
 
 .navbar-default .navbar-nav > .active > a:hover {
   color: black;
+}
+
+/*jumbotron section*/
+.jumbotron {
+  background: url("../images/jumbotron-bike.jpg") no-repeat center center;
+  background-size: cover;
+  height: 35.55rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron.jumbotron-bike p {
+  width: 51.3rem;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.jumbotron h1 {
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000;
+  color: white;
 }
