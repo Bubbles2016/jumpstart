@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/*nav section*/
+a {
+  color: blue;
+}
+
+.navbar-default .navbar-header > a {
+  color: #399bd1;  
+}
+
+.navbar-default .navbar-nav > .active > a {
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: black;
+}
