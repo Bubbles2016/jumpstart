@@ -35,6 +35,7 @@ body {
 
 /*jumbotron section*/
 .jumbotron {
+  position: relative;
   background: url("../images/jumbotron-bike.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 11.85rem;
@@ -76,12 +77,9 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
-  .jumbotron {
-    background-size: 100%;
-  }
-
+  
   .jumbotron .container h1 {
-    font-size: 2.7rem;
+    font-size: 5.7rem;
   }
 
   .jumbotron .container p {
@@ -89,6 +87,7 @@ body {
     width: 100%;
   }
 }
+
 /*Featured project*/
 .Featured-project h2 {
   font-size: 1.7rem;
@@ -109,6 +108,10 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  .Featured-project {
+    margin: 0;
+  }
+
   .Featured-project .image-container img {
     width: 100%;
   }
@@ -148,6 +151,18 @@ strong {
   margin-bottom: 1.4rem;
 }
 
-.container-fluid.help p {
+footer p {
   width: 42rem;
+  /*text-align: center;*/
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 450px) {
+  footer strong {
+    width: 100%;
+  }
+
+  footer p {
+    width: 100%;
+  }
 }
