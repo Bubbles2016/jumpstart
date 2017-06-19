@@ -12,12 +12,10 @@ body {
   box-sizing: border-box;
 }
 /*nav section*/
-a {
-  color: blue;
-}
 
 .navbar-default .navbar-header > a {
   color: #399bd1;
+  font-size: 1.1rem;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -39,7 +37,8 @@ a {
 .jumbotron {
   background: url("../images/jumbotron-bike.jpg") no-repeat center center;
   background-size: cover;
-  height: 35.55rem;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -54,8 +53,26 @@ a {
 
 .jumbotron h1 {
   font-size: 7.1rem;
-  text-shadow: -1px -1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: white;
+  font-family: 'Monoton';
+}
+
+.btn {
+  margin-top: 2.8rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  width: 11.4rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 450px) {
@@ -73,6 +90,24 @@ a {
   }
 }
 /*Featured project*/
+.Featured-project h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1.43rem;
+  color: #399bd1;
+}
+
+.Featured-project h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.Featured-project ul li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 @media only screen and (max-width: 450px) {
   .Featured-project .image-container img {
     width: 100%;
@@ -82,7 +117,15 @@ a {
     width: 50%;
   }
 }
+
 /*Projects*/
+.Projects {
+  padding-bottom: 5.85rem;
+}
+
+#project1 .image-container img, #project2 .image-container img, #project3 .image-container img {
+  width: 100%;
+}
 @media only screen and (max-width: 450px) {
   #project1, #project2, #project3 {
     width: 100%;
@@ -91,11 +134,18 @@ a {
 
 /*help section*/
 footer {
-  height: 20.8rem;
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
   background-color: #f3f3f3;
   display: flex;
   text-align: center;
   align-items: center;
+}
+
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
 }
 
 .container-fluid.help p {
