@@ -112,7 +112,7 @@ body {
     margin: 0;
   }
 
-  .Featured-project .image-container img {
+  #featured-image {
     width: 100%;
   }
 
