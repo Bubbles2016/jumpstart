@@ -1,0 +1,1 @@
+Jumpstart is a fictional company that transforms ideas into businesses.
