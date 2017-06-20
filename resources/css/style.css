@@ -63,57 +63,6 @@ body {
   background-size: cover;
 }
 
-/*#title, #title2, #title3 {
-  font-size: 4.1rem;
-}*/
-
-/*.jumbotron-bike {
-  position: relative;
-  background: url("../images/jumbotron-bike.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-
-.jumbotron-beer {
-  position: relative;
-  background: url("../images/jumbotron-beer.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-#title, #title2, #title3 {
-  font-size: 4.1rem;
-}
-
-.jumbotron-flowers {
-  position: relative;
-  background: url("../images/jumbotron-flowers.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-
-.jumbotron-duffel {
-  position: relative;
-  background: url("../images/jumbotron-duffel.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 11.85rem;
-  padding-bottom: 11.85rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}*/
-
 .jumbotron p {
   width: 51.3rem;
   text-align: center;
